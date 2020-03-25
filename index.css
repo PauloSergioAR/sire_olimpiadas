@@ -15,7 +15,7 @@
 }
 
 #tokyo {
-  background-image: url(./public/IMAGE\ 3.jpg);
+  background-image: url(public/IMAGE\ 3.jpg);
   opacity: .5;
   filter: blur(2px)
 }
@@ -65,7 +65,7 @@
 }
 
 #stadium {
-  background-image: url(./public/IMAGE\ 3.2.jpg);
+  background-image: url(public/IMAGE\ 3.2.jpg);
 }
 
 *, *:before, *:after {
@@ -82,7 +82,7 @@ html, body {
 }
 
 #mascotes {
-  background-image: url(./public/IMAGE\ 4.1.png);
+  background-image: url(public/IMAGE\ 4.1.png);
 }
 
 body {
