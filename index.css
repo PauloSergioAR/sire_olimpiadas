@@ -14,7 +14,7 @@
   align-content: center;
 }
 
-#stadium {
+#tokyo {
   background-image: url(./public/IMAGE\ 3.jpg);
   opacity: .5;
   filter: blur(2px)
@@ -41,14 +41,30 @@
   top: 2%;
 }
 
-#tokyo-paragraph {
-  background-image: url(./public/clipart.png);
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
-  -webkit-backdrop-filter: opacity(.5)
+.container-paragrafo, .slider {
+  position: relative;
+  
 }
 
-#tokyo {
+.clipart {
+  position: absolute;
+  height: 100px;
+  width: auto;
+  /* top: 20px; */
+  z-index: 1;
+  filter: opacity(20%);  
+}
+
+#clipart_2 {
+  transform: rotate(-45deg);
+}
+
+#tokyo-paragraph .paragrafo {
+  position: relative;
+  z-index: 2;
+}
+
+#stadium {
   background-image: url(./public/IMAGE\ 3.2.jpg);
 }
 
@@ -63,6 +79,10 @@ html, body {
 .slider-image {
   height: 100%;
   width: auto;
+}
+
+#mascotes {
+  background-image: url(./public/IMAGE\ 4.1.png);
 }
 
 body {
