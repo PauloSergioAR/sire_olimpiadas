@@ -9,12 +9,49 @@
 
 #mascote_2 {
   margin-right: 50px;
-}
-
-.mascote:hover {
-  
+  height: 438px;
+  width: auto;
 }
 
 .tooltip {
   display: inline-block;
+}
+
+.legenda {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+#legenda2 {   
+  left: 35%;
+}
+
+#legenda3 {
+  right: 35%;
+}
+
+.mascote_container:hover .legenda {
+  visibility: visible;
+  opacity: 1;  
+}
+
+.figure_shadow {
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  height: 100px;
+  background: radial-gradient(#696969, #878787, #ababab, #c5c5c5, #fff, transparent 90%);
+  border-radius: 100px / 50px;
+}
+
+#figure_mascote_1 .figure_shadow {
+  left: 32.5%;
+  bottom: -7%;
+}
+
+#figure_mascote_2 .figure_shadow {
+  right: 30%;
+  bottom: -7%;
 }
