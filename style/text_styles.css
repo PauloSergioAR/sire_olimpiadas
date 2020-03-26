@@ -1,0 +1,26 @@
+.paragrafo {
+  padding: 50px;
+  font: 15px Lato, sans-serif;
+  color: #777777;  
+  top: 2%;
+}
+
+.container-paragrafo, .slider {
+  position: relative;
+}
+
+#tokyo-paragraph .paragrafo {
+  position: relative;
+  z-index: 2;
+}
+
+#descricao_mascotes {
+  align-self: center;
+  width: 30%;
+  height: auto;
+}
+
+#descricao_mascotes > p {
+  font: 15px Lato, sans-serif;
+  color: #777777;  
+}

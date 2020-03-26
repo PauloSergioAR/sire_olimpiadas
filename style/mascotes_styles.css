@@ -1,0 +1,20 @@
+#mascotes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#mascote_1 {
+  margin-left: 50px;
+}
+
+#mascote_2 {
+  margin-right: 50px;
+}
+
+.mascote:hover {
+  
+}
+
+.tooltip {
+  display: inline-block;
+}
