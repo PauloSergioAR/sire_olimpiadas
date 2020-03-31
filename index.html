@@ -11,89 +11,253 @@
   <link rel="stylesheet" href="style/slider_styles.css">
   <link rel="stylesheet" href="style/text_styles.css">
   <link rel="stylesheet" href="style/tooltip_style.css">
+  <link rel="stylesheet" href="style/images_style.css">
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Olimpiadas</title>
 </head>
 
 <body>
-  <div id="tokyo" class="big-image">
-  </div>
-  <img id="logo" src="./public/logo.png" alt="logo" />
-  <div class="container-paragrafo">
-    <img class="clipart" id="clipart_1" src="./public/clipart_1.png" alt="clipart" sizes="100px 100px" srcset="">
-    <p class="paragrafo">
-      As olimpíadas de 2020 serão realizadas em Tóquio, no Japão, de 24 de julho a 9 de agosto de 2020. Em sua 32ª
-      edição,
-      os Jogos Olímpicos de Verão terão 33 modalidades esportivas, com a expectativa de participação de mais de 11 mil
-      atletas, os quais representarão mais de 204 países. Essa é a segunda vez que Tóquio recebe os Jogos Olímpicos
-      Modernos, a primeira vez foi em 1964, o que tornou a capital japonesa a ser a primeira cidade asiática a sediar
-      duas
-      vezes as Olimpíadas. A expectativa do Comitê Organizador Internacional (COI) é de que cerca de 4,5 milhões de
-      pessoas estejam presentes nas competições, que serão realizadas na Baía de Tóquio (capital) e região metropolitana
-      (com exceção de Sapporo, a 832 km de Tóquio), em 43 locais definidos para os eventos.
-    </p>
-  </div>
-
-  <div class="slider">
-    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
-    <input type="radio" name="slider" title="slide2" class="slider__nav" />
-    <input type="radio" name="slider" title="slide3" class="slider__nav" />
-    <div class="slider__inner">
-      <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
-        <img class="slider-image" src="public/IMAGE 3.2.jpg" alt="tokyo">
-      </div>
-      <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
-        <img class="slider-image" src="public/IMAGE 3.1.jpg" alt="tokyo">
-      </div>
-      <div class="slider__contents"><i class="slider__image fa fa-television"></i>
-        <img class="slider-image" src="public/IMAGE 3.3.jpg" alt="tokyo">
-      </div>
+  <div id="main">
+    <div id="tokyo" class="big-image">
     </div>
-  </div>
-  <div id="tokyo-paragraph" class="container-paragrafo">
-    <img class="clipart" id="clipart_2" src="public/clipart.png" alt="clipart" sizes="100px 100px" srcset="">
-    <p class="paragrafo">
-      Tóquio foi anunciada oficialmente como sede das Olimpíadas de 2020 na cerimônia de encerramento dos Jogos
-      Olímpicos
-      do Rio de Janeiro, em 2016, data em que começou a contagem regressiva para a 32ª edição da competição. A
-      estimativa
-      orçamentária oficial do Comitê Olímpico de Tóquio foi de 12,6 bilhões de dólares para a realização dos jogos. Além
-      desse valor, o governo anunciou o investimento de 7,5 bilhões de dólares.
-      A estrutura dos Jogos Olímpicos conta com 43 locais, sendo 25 já existentes e que passam por adaptação para as
-      competições, 10 temporários e 8 novas construções. Algumas modalidades serão disputadas em lugares que foram
-      construídos para as Olimpíadas de 1964 e permanecem em atividade, como é o caso do Estádio Olímpico, do Nippon
-      Budokan e do Ginásio Nacional de Yoyog.
-      O Estádio Nacional de Tóquio, ou Estádio Olímpico, passa por uma grande reforma para receber a abertura e o
-      encerramento dos Jogos Olímpicos, além das modalidades de atletismo e partidas de futebol. O novo estádio terá
-      capacidade para 68 mil pessoas, ao custo de cerca de 1,5 bilhão de dólares.
-    </p>
-  </div>
-
-  <div id="mascotes">
-    <div class="mascote_container">
-      <figure><img class="mascote" id="mascote_1" src="public/IMAGE 4.2.png" alt="mascote_1">
-      <div class="tooltip" id="tooltip_1">
-          <p>testestsetsetsetestestsetetestsetetsetestes</p>  
-      </div>
+    <img id="logo" src="./public/logo.png" alt="logo" />
+    <div class="container-paragrafo">
+      <img class="clipart" id="clipart_1" src="./public/clipart_1.png" alt="clipart" sizes="100px 100px" srcset="">
+      <p class="paragrafo">
+        As olimpíadas de 2020 serão realizadas em Tóquio, no Japão, de 24 de julho a 9 de agosto de 2020. Em sua 32ª
+        edição,
+        os Jogos Olímpicos de Verão terão 33 modalidades esportivas, com a expectativa de participação de mais de 11 mil
+        atletas, os quais representarão mais de 204 países. Essa é a segunda vez que Tóquio recebe os Jogos Olímpicos
+        Modernos, a primeira vez foi em 1964, o que tornou a capital japonesa a ser a primeira cidade asiática a sediar
+        duas
+        vezes as Olimpíadas. A expectativa do Comitê Organizador Internacional (COI) é de que cerca de 4,5 milhões de
+        pessoas estejam presentes nas competições, que serão realizadas na Baía de Tóquio (capital) e região
+        metropolitana
+        (com exceção de Sapporo, a 832 km de Tóquio), em 43 locais definidos para os eventos.
+      </p>
     </div>
 
-    <div id="descricao_mascotes">
-      <p>O mascote dos Jogos Olímpicos foi chamado de Miraitowa, nome formado pelas palavras japonesas Mirai (futuro)
-        e Towa (eternidade), que representa o desejo de um futuro cheio de esperança nos corações de todas as pessoas do
-        mundo. Já a mascote das Paraolimpíadas de Tóquio é Someity, criatura inspirada nas tradicionais flores de
-        cerejeira do Japão e que tem um incrível poder mental e força física, simbolizando a superação de obstáculos dos
-        paratletas. Seu nome é baseado na junção de Someiyoshino (espécie de flor de cerejeira) com o termo “so might”
-        (é possível, em adaptação ao português).</p>
-    </div>
-
-    <div class="mascote_container">
-      <div class="tooltip" id="tooltip_2">
-        <p>testestsetsetsetestestsetetestsetetsetestes</p>
+    <div class="slider">
+      <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+      <input type="radio" name="slider" title="slide2" class="slider__nav" />
+      <input type="radio" name="slider" title="slide3" class="slider__nav" />
+      <div class="slider__inner">
+        <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+          <img class="slider-image" src="public/IMAGE 3.2.jpg" alt="tokyo">
+        </div>
+        <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+          <img class="slider-image" src="public/IMAGE 3.1.jpg" alt="tokyo">
+        </div>
+        <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+          <img class="slider-image" src="public/IMAGE 3.3.jpg" alt="tokyo">
+        </div>
       </div>
-      <figure><img class="mascote" id="mascote_2" src="public/IMAGE 4.3.png" alt="mascote_1"></figure>
+    </div>
+    <div id="tokyo-paragraph" class="container-paragrafo">
+      <img class="clipart" id="clipart_2" src="public/clipart.png" alt="clipart" sizes="100px 100px" srcset="">
+      <p class="paragrafo">
+        Tóquio foi anunciada oficialmente como sede das Olimpíadas de 2020 na cerimônia de encerramento dos Jogos
+        Olímpicos
+        do Rio de Janeiro, em 2016, data em que começou a contagem regressiva para a 32ª edição da competição. A
+        estimativa
+        orçamentária oficial do Comitê Olímpico de Tóquio foi de 12,6 bilhões de dólares para a realização dos jogos.
+        Além
+        desse valor, o governo anunciou o investimento de 7,5 bilhões de dólares.
+        A estrutura dos Jogos Olímpicos conta com 43 locais, sendo 25 já existentes e que passam por adaptação para as
+        competições, 10 temporários e 8 novas construções. Algumas modalidades serão disputadas em lugares que foram
+        construídos para as Olimpíadas de 1964 e permanecem em atividade, como é o caso do Estádio Olímpico, do Nippon
+        Budokan e do Ginásio Nacional de Yoyog.
+        O Estádio Nacional de Tóquio, ou Estádio Olímpico, passa por uma grande reforma para receber a abertura e o
+        encerramento dos Jogos Olímpicos, além das modalidades de atletismo e partidas de futebol. O novo estádio terá
+        capacidade para 68 mil pessoas, ao custo de cerca de 1,5 bilhão de dólares.
+      </p>
     </div>
 
+    <h2 class="title">Mascotes</h2>
+    <div id="mascotes">
+      <div class="mascote_container">
+        <figure id="figure_mascote_1">
+          <img class="mascote" id="mascote_1" src="public/IMAGE 4.2.png" alt="mascote_1">
+          <div class="figure_shadow"></div>
+        </figure>
+        <img class="legenda" id="legenda2" src="public/Legenda 4.2.png" alt="legenda_2">
+        <div class="tooltip" id="tooltip_1">
+          <p>O mascote dos Jogos Olímpicos foi chamado de Miraitowa, nome formado pelas palavras
+            japonesas Mirai (futuro)
+            e Towa (eternidade), que representa o desejo de um futuro cheio de esperança nos corações de todas as
+            pessoas do
+            mundo.</p>
+        </div>
+      </div>
+      <div class="mascote_container">
+        <div class="tooltip" id="tooltip_2">
+          <p>A mascote das Paraolimpíadas de Tóquio é Someity, criatura inspirada nas tradicionais flores de
+            cerejeira do Japão e que tem um incrível poder mental e força física, simbolizando a superação de obstáculos
+            dos
+            paratletas. Seu nome é baseado na junção de Someiyoshino (espécie de flor de cerejeira) com o termo “so
+            might”
+            (é possível, em adaptação ao português).</p>
+        </div>
+        <figure id="figure_mascote_2">
+          <img class="mascote" id="mascote_2" src="public/IMAGE 4.3.png" alt="mascote_1">
+          <div class="figure_shadow"></div>
+        </figure>
+        <img class="legenda" id="legenda3" src="public/Legenda 4.3.png" alt="legenda_3">
+      </div>
+    </div>
+    <div id="sports">
+      <h2 class="title">Confira todas as modalidades das Olimpíadas de 2020:</h2>
+      <img id="sports_gif" src="public/sports.gif" alt="" srcset="">
+
+      <div id="list">
+        <ul>
+          <li><span>Atletismo</span></li>
+          <li><span>Badminton</span></li>
+          <li><span>Basquete</span></li>
+          <li><span>Basquetebol</span></li>
+          <li><span>Basquete3x3</span></li>
+          <li><span>Beisebol/Softball</span></li>
+          <li><span>Basebol</span></li>
+          <li><span>Softbol</span></li>
+          <li><span>Boxe </span></li>
+          <li><span>Canoagem</span></li>
+          <li><span>Slalom</span></li>
+          <li><span>Velocidade</span></li>
+          <li><span>Caratê </span></li>
+          <li><span>Ciclismo</span></li>
+          <li><span>Estrada</span></li>
+          <li><span>Pista</span></li>
+          <li><span>BMX</span></li>
+          <li><span>Mountain bike</span></li>
+          <li><span>Freestyle</span></li>
+          <li><span>Esgrima </span></li>
+          <li><span>Escalada</span></li>
+          <li><span>Futebol</span></li>
+          <li><span>Ginástica</span></li>
+          <li><span>Artística</span></li>
+          <li><span>Rítmica</span></li>
+          <li><span>Trampolim</span></li>
+          <li><span>Golfe </span></li>
+          <li><span>Halterofilismo </span></li>
+          <li><span>Handebol</span></li>
+          <li><span>Hipismo</span></li>
+          <li><span>Hóquei sobre a grama</span></li>
+          <li><span>Judô </span></li>
+          <li><span>Lutas</span></li>
+          <li><span>Livre</span></li>
+          <li><span>Greco-romana</span></li>
+          <li><span>Aquáticos</span></li>
+          <li><span>Natação Artística</span></li>
+          <li><span>Natação</span></li>
+          <li><span>Saltos ornamentais</span></li>
+          <li><span>Pentatlo moderno</span></li>
+          <li><span>Polo aquático</span></li>
+          <li><span>Remo</span></li>
+          <li><span>Rugby sevens</span></li>
+          <li><span>Skate</span></li>
+          <li><span>Street</span></li>
+          <li><span>Park</span></li>
+          <li><span>Surfe</span></li>
+          <li><span>Taekwondo</span></li>
+          <li><span>Tênis</span></li>
+          <li><span>Tênis de mesa</span></li>
+          <li><span>Tiro</span></li>
+          <li><span>Tiro com arco</span></li>
+          <li><span>Triatlo</span></li>
+          <li><span>Vela</span></li>
+          <li><span>Vôlei</span></li>
+          <li><span>Vôlei quadra</span></li>
+          <li><span>Vôlei de praia</span></li>
+        </ul>
+      </div>
+      <div id="premiacao">
+        <p class="paragrafo">A premiação das Olimpíadas é constituída de medalhas destinadas aos três primeiros lugares
+          em cada competição ou torneio, sendo o pódio formado pelos medalhistas de
+          <span id="ouro">
+            ouro
+            <img src="public/ouro.png" alt="ouro" id="ouro_img" class="medalha">
+          </span>,
+          <span id="prata">
+            prata
+            <img src="public/prata.png" alt="prata" id="prata_img" class="medalha">
+          </span> e 
+          <span id="bronze">
+            bronze
+            <img src="public/bronze.png" alt="bronze" id="bronze_img" class="medalha">
+          </span>.</p>
+        <p class="paragrafo">O ranking do quadro de medalhas é definido pela quantidade de medalhas de ouro, seguidas
+          pelas de prata e, por último, de bronze. Por exemplo, um país com 5 medalhas de prata e 8 de bronze
+          classifica-se atrás de um país com 2 medalhas de ouro. Estados Unidos e China devem disputar o primeiro lugar
+          no ranking geral.</p>
+      </div>
+    </div>
+
+    <div id="travel">
+      <h2 class="title">Quanto custa ir para as Olimpíadas de Tóquio?</h2>
+      <div id="topics_container">
+        <div class="topic">
+          <h3 class="topic_title">Ingressos</h3>
+          <p>
+            Cada país tem uma empresa oficial responsável pela venda autorizada de ingressos das Olimpíadas de 2020. No
+            Brasil, as vendas estão previstas para a segunda quinzena de julho.
+            Os valores informados pelo Comitê Organizador de Tóquio são referentes aos ingressos destinados aos
+            residentes no Japão, para os quais os tíquetes já estão sendo vendidos. Apesar da diferença no preço final,
+            é possível programar-se pelos preços informados pela organização:
+          </p>
+          <ul>
+            <li class="ingressos"><span><span>Cerimônia de Abertura e Encerramento:</span> variam de Y 12.000 ienes (R$ 420) a Y
+                300.000 ienes (R$ 10.500)</span></li>
+            <li class="ingressos"><span><span>Competições:</span> variam de Y 2.500 ienes (R$ 87) a Y 130.000 (R$ 4.550), sendo mais
+                da metade dos ingressos de Y 8.000 ienes (R$ 280)</span></li>
+          </ul>
+        </div>
+        <div class="topic">
+          <h3 class="topic_title">Passagens</h3>
+          <p>
+            Fatores como local de partida, companhia aérea e até a data da compra da passagem influenciam no valor dos
+            bilhetes aéreos e, conforme as Olimpíadas aproximam-se, a tendência é que os preços fiquem mais altos. Além
+            da pesquisa pelas companhias aéreas, ferramentas como o Google Flyghts são úteis para a comparação de
+            valores.
+            Outro fator importante é saber se será necessário pegar ônibus ou outro transporte para assistir aos jogos,
+            já
+            que algumas competições serão realizadas fora de Tóquio, acrescentando o valor da locomoção até o destino
+            escolhido.
+          </p>
+        </div>
+        <div class="topic">
+          <h3 class="topic_title">Hospedagem</h3>
+          <p>
+            Outro gasto para quem vai para as Olimpíadas é a hospedagem. Pessoas que vão em grupos podem economizar se
+            optarem por apartamentos, os quais variam de R$ 290 a R$ 800 por dia (sendo o valor mais baixo para duas
+            pessoas e o mais alto para até oito).
+            Hotéis possuem um custo mais alto se comparados aos hostels e apartamentos, mas são uma boa opção para quem
+            prefere contar com serviço de quarto e alguns diferenciais.
+          </p>
+        </div>
+        <div class="topic">
+          <h3 class="topic_title">Transporte</h3>
+          <p>
+            O transporte público de Tóquio funciona muito bem, por isso é uma boa opção para o turista. O Ticket All-Day
+            Tokyo Metro, que permite usar o metrô durante todo o dia, custa cerca de R$ 21 e, caso seja Tokyo Metro +
+            Toei Subway, que inclui ônibus, o valor sobe para R$ 34. Já o bilhete individual sai por R$ 9,50 para andar
+            até 27 km, enquanto de 28 km a 40 km o preço sobe para e R$ 10,60.
+          </p>
+        </div>
+        <div class="topic">
+          <h3 class="topic_title">Alimentação</h3>
+          <p>
+            Os gastos com alimentação variam muito de pessoa para pessoa, mas é possível fazer as três principais
+            refeições com os seguintes valores:
+          </p>
+          <ul>
+            <li class="refeicoes"><span><span>Café da manhã:</span> R$ 17 a R$ 30</span></li>
+            <li class="refeicoes"><span><span>Almoço:</span> R$ 27 a R$ 73</span></li>
+            <li class="refeicoes"><span><span>Jantar:</span> R$ 35 a R$ 105</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 

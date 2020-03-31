@@ -12,9 +12,21 @@ html, body {
   width: auto;
 }
 
+#main {
+  max-width: 980px;
+  margin: auto;
+  background-color: white;
+  position: unset;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 body {
+  background-color: #f3f3f3;
   color: #444;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  position: relative;
+  opacity: 100%;
+  z-index: 1;  
 }

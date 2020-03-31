@@ -4,17 +4,62 @@
 }
 
 #mascote_1 {
+  position: relative;
+  z-index: 1;
   margin-left: 50px;
 }
 
 #mascote_2 {
   margin-right: 50px;
-}
-
-.mascote:hover {
-  
+  height: 438px;  
+  width: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .tooltip {
   display: inline-block;
+}
+
+.legenda {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+#legenda2 {   
+  left: 35%;
+}
+
+#legenda3 {
+  right: 35%;
+}
+
+.mascote_container:hover .legenda {
+  visibility: visible;
+  opacity: 1;  
+}
+
+.mascote_container {
+  position: relative;
+}
+
+.figure_shadow {
+  position: absolute !important;
+  z-index: 0 !important;
+  width: 200px !important;
+  height: 100px !important;
+  background: radial-gradient(#696969, #878787, #ababab, #c5c5c5, #fff, transparent 90%) !important;
+  border-radius: 100px / 50px !important;
+}
+
+#figure_mascote_1 .figure_shadow {
+  left: 32.5%;
+  bottom: -7%;
+}
+
+#figure_mascote_2 .figure_shadow {
+  right: 31.5%;
+  bottom: -7%;
 }
