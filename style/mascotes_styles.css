@@ -4,13 +4,17 @@
 }
 
 #mascote_1 {
+  position: relative;
+  z-index: 1;
   margin-left: 50px;
 }
 
 #mascote_2 {
   margin-right: 50px;
-  height: 438px;
+  height: 438px;  
   width: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .tooltip {
@@ -37,13 +41,17 @@
   opacity: 1;  
 }
 
+.mascote_container {
+  position: relative;
+}
+
 .figure_shadow {
-  position: absolute;
-  z-index: -1;
-  width: 200px;
-  height: 100px;
-  background: radial-gradient(#696969, #878787, #ababab, #c5c5c5, #fff, transparent 90%);
-  border-radius: 100px / 50px;
+  position: absolute !important;
+  z-index: 0 !important;
+  width: 200px !important;
+  height: 100px !important;
+  background: radial-gradient(#696969, #878787, #ababab, #c5c5c5, #fff, transparent 90%) !important;
+  border-radius: 100px / 50px !important;
 }
 
 #figure_mascote_1 .figure_shadow {
@@ -52,6 +60,6 @@
 }
 
 #figure_mascote_2 .figure_shadow {
-  right: 30%;
+  right: 31.5%;
   bottom: -7%;
 }

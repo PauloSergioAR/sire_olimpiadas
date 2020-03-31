@@ -7,7 +7,7 @@
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 0s, opacity 500ms;
-  z-index: 2;
+  z-index: 3;
   border-radius: 5px;
   box-shadow: 0 8px 6px -6px black;
 }
@@ -89,7 +89,7 @@ figure:hover::before {
   -webkit-animation: shine .45s;
   animation: shine .75%;
   pointer-events: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 #figure_mascote_2::before{

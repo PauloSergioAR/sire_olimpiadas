@@ -24,7 +24,9 @@
   top: 2%;
   padding-top: 20px;
   height: 70%;
-  left: 35%;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .clipart {
