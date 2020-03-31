@@ -46,11 +46,13 @@
   left: -100%;
 }
 .slider__nav:checked:nth-of-type(3) ~ .slider__inner {
-  left: -200%;
+  left: -225%;
 }
-.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
-  left: -300%;
+
+#stadium_3 {
+  margin-left: 15px;
 }
+
 .slider__inner {
   position: absolute;
   top: 0;
@@ -95,17 +97,6 @@
 .slider__image {
   font-size: 2.7rem;
   color: #2196F3;
-}
-.slider__caption {
-  font-weight: 500;
-  margin: 2rem 0 1rem;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-}
-.slider__txt {
-  color: #999;
-  margin-bottom: 3rem;
-  max-width: 300px;
 }
 
 @-webkit-keyframes check {
