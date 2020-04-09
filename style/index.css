@@ -15,7 +15,7 @@ html, body {
 #main {
   max-width: 980px;
   margin: auto;
-  background-color: white;
+  background-color: #D3D3D3	;
   position: unset;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -30,3 +30,23 @@ body {
   opacity: 100%;
   z-index: 1;  
 }
+
+#footermain{
+  max-width: 980px;
+  margin: auto;
+  background-color: #D3D3D3	;
+  position: unset;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: black;
+  background-color:#D3D3D3;
+  padding: 10px;
+  margin: 20px;
+  height: auto;
+  width: 90%;
+ }
