@@ -15,7 +15,7 @@ html, body {
 #main {
   max-width: 980px;
   margin: auto;
-  background-color: #D3D3D3	;
+  background-color: white	;
   position: unset;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -34,9 +34,10 @@ body {
 #footermain{
   max-width: 980px;
   margin: auto;
-  background-color: #D3D3D3	;
+  background-color: white	;
   position: unset;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
 #footer {
@@ -44,7 +45,7 @@ body {
   font-size: 0.7em;
   font-weight: bold;
   color: black;
-  background-color:#D3D3D3;
+  background-color:white;
   padding: 10px;
   margin: 20px;
   height: auto;

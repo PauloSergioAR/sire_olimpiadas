@@ -29,11 +29,11 @@
 }
 
 #legenda2 {   
-  left: 35%;
+  left: 25%;
 }
 
 #legenda3 {
-  right: 35%;
+  right: 25%;
 }
 
 .mascote_container:hover .legenda {
@@ -46,20 +46,20 @@
 }
 
 .figure_shadow {
-  position: absolute !important;
-  z-index: 0 !important;
-  width: 200px !important;
-  height: 100px !important;
-  background: radial-gradient(#696969, #878787, #ababab, #c5c5c5, #fff, transparent 90%) !important;
-  border-radius: 100px / 50px !important;
+  position: absolute;
+  z-index: 0;
+  width: 200px;
+  height: 100px;
+  background: radial-gradient(#696969, #878787, #ababab, #c5c5c5, #fff, transparent 90%);
+  border-radius: 100px / 50px;
 }
 
 #figure_mascote_1 .figure_shadow {
-  left: 32.5%;
+  left: 24%;
   bottom: -7%;
 }
 
 #figure_mascote_2 .figure_shadow {
-  right: 31.5%;
+  right: 20.5%;
   bottom: -7%;
 }

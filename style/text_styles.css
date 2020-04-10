@@ -12,7 +12,7 @@ h2 { color:black;
   line-height: 72px;
   margin: 0 0 24px; 
   text-align: center; 
-  text-transform: uppercase; }
+  text-transform: uppercase; 
 }
 h3{
   font: 24px Lato, sans-serif;
@@ -50,9 +50,15 @@ h3{
 
 #list {
   height: 500px;
-  width: 100%;
+  width: 75%;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  margin-left: 12.5%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #list > ul {

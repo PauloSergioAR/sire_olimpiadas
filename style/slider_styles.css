@@ -46,7 +46,7 @@
   left: -100%;
 }
 .slider__nav:checked:nth-of-type(3) ~ .slider__inner {
-  left: -225%;
+  left: -200%;
 }
 
 #stadium_3 {
