@@ -1,13 +1,22 @@
 .paragrafo {
   padding: 50px;
   font: 15px Lato, sans-serif;
-  color: #777777; 
+  color: black; 
   margin-top: 0; 
 }
 
-h2 {
+h2 { color:black;
+  font-family: 'Raleway',sans-serif;
+  font-size: 28px; 
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px; 
+  text-align: center; 
+  text-transform: uppercase; }
+}
+h3{
   font: 24px Lato, sans-serif;
-  color: #777777; 
+  color: #00008B;
 }
 
 #travel > h2 {
@@ -32,7 +41,7 @@ h2 {
 
 #descricao_mascotes > p {
   font: 15px Lato, sans-serif;
-  color: #777777;  
+  color: black;  
 }
 
 #sports {
@@ -54,7 +63,7 @@ h2 {
 
 #list > ul > li > span {
   font: 15px Lato, sans-serif;
-  color: #777777; 
+  color: black; 
 }
 
 .title {
@@ -136,7 +145,7 @@ h2 {
 .topic {
   transition: transform 300ms;
   font: 15px Lato, sans-serif;
-  color: #777777; 
+  color: black; 
 }
 
 .topic > h3 {

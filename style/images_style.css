@@ -32,3 +32,48 @@
   transition: visibility 0s linear 0s, opacity 500ms; 
   left: 38%;
 }
+#imagef{
+  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.textfinal {
+  
+  color: white;
+  font-size: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.figurefinal {
+  position: relative;
+  width: 100%;
+}
+
+.imagens {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.figurefinal:hover .overlay {
+  height: 100%;
+}
+
