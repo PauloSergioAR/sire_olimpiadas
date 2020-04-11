@@ -6,11 +6,6 @@
 }
 
 .image_text {
-  color: white; 
-}
-
-.textfinal {
-  width: 100%;
   color: white;
   font-size: 100%;
   position: absolute;
@@ -21,8 +16,13 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-.textfinal > p {
-  margin: 100px;
+.textfinal {
+  width: 100%;
+  color: white;
+  font-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 h2 { color:black;
@@ -157,6 +157,7 @@ h3{
   border-radius: 10px;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 20px;
 }
 
 .topic > ul {

@@ -33,13 +33,17 @@
   }
 
   #mascote_1 {
-    width: 340px;
+    width: 300px;
     height: auto;
   }
 
   #mascote_2 {
-    width: 340px;
+    width: 300px;
     height: auto;
+  }
+
+  .figure_mascote{
+    width: 300px
   }
 
   #mascote_container_1{
@@ -75,11 +79,6 @@
 
   #tooltip_2 {
     right: 0;
-  }
-
-  .mascote {
-    width: 350;
-    height: auto;
   }
 
   .topic {
@@ -135,6 +134,12 @@
     margin-right: 10px;
     padding-top: 10px;       
     font-size: 15px;
+    left: 0;
+    top: 0;
+    position: static;
+    overflow: auto;
+    transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
   }
 
   .overlay {
@@ -152,5 +157,97 @@
 
   .paragrafo {
     padding: 20px;
+  }
+
+  #logo {
+    width: 300px;
+    height: auto;
+  }
+
+  #figure_mascote_1 {
+    position: relative;
+    left: 6%;
+  }
+
+  #figure_mascote_2 {
+    position: relative;
+    left: 9%;
+  }
+
+  #ouro:hover > #ouro_img {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #prata:hover > #prata_img {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #bronze:hover > #bronze_img {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 960px){
+  #ouro:hover > #ouro_img {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #prata:hover > #prata_img {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #bronze:hover > #bronze_img {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  #main {
+    width: 100%;
+    align-self: center;
+    overflow: hidden;
+  }
+
+  #mascote_1 {
+    width: 300px;
+    height: auto;
+  }
+
+  #mascote_2 {
+    width: 300px;
+    height: auto;
+  }
+
+  .figure_mascote{
+    width: 300px
+  }
+
+  #tooltip_1 {
+    left: 310px;
+  }
+
+  #tooltip_2 {
+    top: 100px;
+    right: 350px;
+  }
+
+  #mascote_container_2 {
+    right: 30px;
+  }
+
+  .overlay {
+    overflow: scroll;
+  }
+
+  .image_text {
+    padding-top: 2%;
+    position: relative;
+    width: 70%;
+    text-align: center;
+    bottom: 0;
   }
 }
