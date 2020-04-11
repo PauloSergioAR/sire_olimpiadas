@@ -15,14 +15,14 @@ html, body {
 #main {
   max-width: 980px;
   margin: auto;
-  background-color: white	;
+  background-color: white;
   position: unset;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body {
-  background-color: #f3f3f3;
-  color: #444;
+  background-color: white;
+  color:white;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -34,7 +34,7 @@ body {
 #footermain{
   max-width: 980px;
   margin: auto;
-  background-color: white	;
+  background-color: rgba(228, 215, 215, 0.871);
   position: unset;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
@@ -45,7 +45,7 @@ body {
   font-size: 0.7em;
   font-weight: bold;
   color: black;
-  background-color:white;
+  background-color: rgba(228, 215, 215, 0.871);
   padding: 10px;
   margin: 20px;
   height: auto;
