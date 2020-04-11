@@ -64,6 +64,7 @@
   transition:height .5s ease, opacity .5s ease;
   display: flex;
   justify-content: flex-start;
+  pointer-events: none;
 }
 
 .figurefinal:hover .overlay {
